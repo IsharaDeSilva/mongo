@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = "mongodb+srv://username:userpassword@cluster0.xsrgo.mongodb.net/test?retryWrites=true&w=majority";
+const URI = "mongodb+srv://name:password@cluster0.xsrgo.mongodb.net/dbname?retryWrites=true&w=majority";
 
 const connectDB = async() =>{
     await mongoose.connect(URI,{
